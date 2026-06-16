@@ -5,7 +5,7 @@
 ## 一键安装
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/wujiyu2933121230-ai/test/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/wujiyu2933121230-ai/vps-cstest/main/install.sh)
 ```
 
 安装后可直接使用 `sudo vps` 运行。
@@ -13,8 +13,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wujiyu2933121230-ai/test/mai
 ## 手动安装
 
 ```bash
-git clone https://github.com/wujiyu2933121230-ai/test.git
-cd test/vps-init
+git clone https://github.com/wujiyu2933121230-ai/vps-cstest.git
+cd vps-cstest/vps-init
 sudo bash vps-init.sh
 ```
 
