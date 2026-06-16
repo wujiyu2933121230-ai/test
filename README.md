@@ -1,4 +1,4 @@
-# vps-init — VPS 综合管理脚本
+# vps-init — VPS 综合管理脚本 不能用
 
 适用于 **Debian / Ubuntu** 的一站式 VPS 初始化、安全加固与代理管理脚本。
 
