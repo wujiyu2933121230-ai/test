@@ -37,7 +37,7 @@ tar -xzf "$TMP/repo.tar.gz" -C "$TMP"
 SRC="$TMP/vps-cstest-$BRANCH/$SUBDIR"
 
 # ── 校验 ──
-required_files=(vps-init.sh lib.sh system.sh ssh.sh ufw.sh anytls.sh hy2.sh)
+required_files=(vps-init.sh lib.sh system.sh ssh.sh ufw.sh anytls.sh)
 for f in "${required_files[@]}"; do
     if [[ ! -f "$SRC/$f" ]]; then
         log_error "文件缺失: $f，下载可能不完整"; exit 1
